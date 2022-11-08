@@ -21,7 +21,7 @@ It is created using the **C programming Language** and it can do many functional
 ## Files description
  - **AUTHORS** -> List of contributors to this repository
  - **man_simple_shell** -> Manual page for the simple_shell
- - **hearder.h** -> Header file
+ - **header.h** -> Header file
  - **shell.c** -> main function
 	- **sig_handler** -> handles the Ctrl + C signal
 	- **_EOF** -> handles the End Of File condition
