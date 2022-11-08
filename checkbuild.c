@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "header.h"
 
 /**
 * checkbuild - checks if the command is a buildin

@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "header.h"
 
 /**
  * exitt - exits the shell with or without a return of status n
