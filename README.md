@@ -3,7 +3,7 @@ This project is a simple version of the linux shell made for Alx SE Program as p
 ![image](https://user-images.githubusercontent.com/111004345/200294494-8df23f08-4ed8-433a-9860-e9c87ba88804.png)
 
 ## What is the shell?
-The shell is a program that takes commands from the keyboard via the terminal, and gives them to the operating system to perform.\
+The shell is a program that takes commands from the keyboard via the terminal, and gives them to the operating system to perform.
 
 ## About this project
 This project is a simple version of the linux shell made for Alx SE Program taking part of the "Low-level programming & Algorithm - Linux and Unix system programming" projects.\
