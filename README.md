@@ -1,12 +1,12 @@
 # Simple_Shell
 This project is a simple version of the linux shell made for Alx SE Program as part of the low-level programming curriculum.
 ![image](https://user-images.githubusercontent.com/111004345/200294494-8df23f08-4ed8-433a-9860-e9c87ba88804.png)
-What is the shell?
+
+# What is the shell?
 The shell is a program that takes commands from the keyboard via the terminal, and gives them to the operating system to perform.
-To better understand how the shell actually works, you can read our Article.
 
 # About this project
-This project is a simple version of the linux shell made for Holberton School taking part of the "Low-level programming & Algorithm - Linux and Unix system programming" projects.
+This project is a simple version of the linux shell made for Alx SE Program taking part of the "Low-level programming & Algorithm - Linux and Unix system programming" projects.
 It is created using the C programming Language and it can do many functionalities that a real shell does.
 
 # Essential Functionalities of the Simple Shell:
