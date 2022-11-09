@@ -139,8 +139,11 @@ ubunto@ubuntu:~/Bureau/simple_shell$
 No known Bugs.
 
 ## TEAM
-Fisani Khumalo | Github/FisaniG\
-Riana Rabearimanana | Github/Rianamoi
+Fisani Khumalo | [Github/FisaniG].\
+Riana Rabearimanana | [Github/Rianamoi]
+
+[Github/FisaniG]: <https://github.com/FisaniG>
+[Github/Rianamoi]: <https://github.com/Rianamoi>
 
 
 
