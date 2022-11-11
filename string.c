@@ -70,7 +70,7 @@ char *concat_all(char *name, char *sep, char *value)
 }
 
 /**
- * _strlen - it gives the length of a string
+ * _strlen - gets the length of a string
  * @s: pointer to the string
  * Return: the length of string
  */
