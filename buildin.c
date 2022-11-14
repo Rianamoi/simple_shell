@@ -52,6 +52,7 @@ int _atoi(char *s)
 /**
  * env - prints the current environment
  * @arv: array of arguments
+ * Return: environment to stdout
  */
 void env(char **arv __attribute__ ((unused)))
 {
