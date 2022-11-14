@@ -1,7 +1,6 @@
 # Simple_Shell
 **This project is a simple version of the linux shell made for Alx SE Program as part of the low-level programming curriculum.**
-![image](https://user-images.githubusercontent.com/111004345/200294494-8df23f08-4ed8-433a-9860-e9c87ba88804.png)
-
+![image](https://user-images.githubusercontent.com/111059997/201648214-6f8c40bb-2fd2-44a1-b10e-8f5bb0671373.png)
 ## What is the shell?
 The shell is a program that takes commands from the keyboard via the terminal, and gives them to the operating system to perform.
 
