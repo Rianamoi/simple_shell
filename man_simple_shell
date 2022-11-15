@@ -7,7 +7,7 @@ The shell is executed by typing ./hsh
 .br
 Then, it will wait for an input such as : command [arguments] [other]
 .SH DESCRIPTION
-This shell is a project dedicated to our studies. My partner and I, have tried to mimic the behavior of a real shell. In case you don't know what a shell is (I doubt that) here is a brief explanation. A shell is a command language interpreter that executes commands read from the standard input or from a file. Our shell does not support the arguments passed to it, yet. We are still working on it.
+This shell is a project dedicated to our studies. My partner and I, have tried to mimic the behavior of a real shell. What is shell? A shell is a command language interpreter that executes commands read from the standard input or from a file. Our shell does not support the arguments passed to it, yet. We are still working on it.
 .br
 .B What hsh can do :
 .br
