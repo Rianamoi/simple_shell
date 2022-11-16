@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- * shell_execute - execute the comands inserted from input
+ * shell_execute - execute the comands inserted from input by user
  * @args: array of strings with the arguments
  * Return: return 1 if success or 0 if exit is called
  */

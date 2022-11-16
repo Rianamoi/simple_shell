@@ -1,9 +1,9 @@
 #include "shell.h"
 /**
- * str_concat - concatenate to strings
+ * str_concat - concatenate two or more strings
  *@s1: string
  *@s2: string
- * Return: the string concat
+ * Return: the concetenated string
  */
 char *str_concat(char *s1, char *s2)
 {

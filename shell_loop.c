@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- * shell_loop - make a infinite loop
+ * shell_loop - make a infinite loop forever
  * @args: array of strings with arguments
  * Return: return void
  */
@@ -16,11 +16,9 @@ void shell_loop(char **args)
 	{
 		if (isatty(STDIN_FILENO))
 		{
-			/* print the prompt */
 			_puts("#cisfun$ ");
 		}
-		/* read the line from input */
-		/*promptline = shell_read_line();*/
+
 		promptline = getline(&line, &buffersize, stdin);
 
 		if (promptline == EOF)
@@ -28,9 +26,9 @@ void shell_loop(char **args)
 			free(line);
 			exit(EXIT_SUCCESS);
 		}
-		/* tokenize the args from input */
+
 		lineargs = shell_split_line(line);
-		/* execute the program as the args says */
+
 		status = shell_execute(lineargs);
 		if (status == 2)
 		{

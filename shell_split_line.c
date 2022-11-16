@@ -2,7 +2,7 @@
 #define SHELL_TOK_DELIM " :\t\r\n\a"
 /**
  * shell_split_line - splits the line in tokens
- * @line: get the line from input
+ * @line: get the line from the user input
  * Return: Return an array of strings of args to execute
  */
 char **shell_split_line(char *line)

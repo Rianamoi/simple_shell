@@ -1,10 +1,10 @@
 #include "shell.h"
 /**
- * _strlen - this functions prints the lenght of a string
+ * _strlen - prints the length of a string
  * @s: string to print.
- * Description: this function prints the lenght of a string
+ * Description: this function prints the length of a string
  * section header: the header of this function is hsh.h
- * Return: retunrn the lenght in int
+ * Return: string length in int
  **/
 int _strlen(char *s)
 {

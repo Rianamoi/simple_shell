@@ -2,7 +2,7 @@
 /**
  * _getenv - Get the string of a environtment varible
  * @name: The name of the varible to find
- * Return: return the string founded
+ * Return: return the string if founded
  */
 char *_getenv(const char *name)
 {

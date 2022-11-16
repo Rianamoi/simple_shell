@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- * shell_launch - execute a binary file with commands
+ * shell_launch - execute a binary file with commands and returns value
  * @args: array of strings with the arguments
  * @flag: is a number for (iterar) in a if;
  * Return: return 1 if success or exit if fails
