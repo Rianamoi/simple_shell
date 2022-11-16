@@ -17,11 +17,11 @@ Stephen Bourne at Bell Labs too. Distributed as the shell for UNIX Version
 [Authors]
 # Authors
 
- 👤 **Jaime Andrés Aricapa**
+ 👤 **Riana Rabearimanana**
 
-- Github: [@Jaricapa-holberton](https://github.com/Jaricapa-holberton)
+- Github: [@Rianamoi](https://github.com/Rianamoi)
 
-👤 **Frank J. Grijalba H.**
+👤 **Fisani Khumalo**
 
 - Github: [@FisaniG](https://github.com/FisaniG)
 
