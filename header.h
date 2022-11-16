@@ -12,7 +12,6 @@
 #include <sys/stat.h>
 #include <signal.h>
 #include <limits.h>
-#include <fnctl.h>
 
 int _putchar(char c);
 void _puts(char *str);
