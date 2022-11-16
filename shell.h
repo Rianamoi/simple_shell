@@ -19,6 +19,7 @@ char **shell_split_line(char *line);
 int shell_launch(char **args, int flag);
 int shell_execute(char **args);
 void _free_double_pointer(char **d_pointer);
+char *_getline_command(void);
 
 /* Functions for Built-in commands */
 int shell_cd(char **args);
