@@ -3,9 +3,9 @@
 int shell_cd(char **args);
 int shell_help(char **args);
 int shell_exit(char **args);
-char *built_in_name[] = {"cd", "help", "exit", "env"};
+char *built_in_name[] = {"cd", "help", "exit", "env", "^D"};
 int (*search_builtin[]) (char **) = {&shell_cd, &shell_help, &shell_exit,
-				     &shell_env};
+				     &shell_env, &lsh_eof};
 /**
  * shell_num_builtins - count the amount of builtins avalibe
  * Return: return the number of builtins
