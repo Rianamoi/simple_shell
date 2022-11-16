@@ -12,7 +12,7 @@
 #include <fcntl.h>
 #include <errno.h>
 
-/* File prototypes */
+/*  File prototypes  */
 void shell_loop(char **args);
 char *shell_read_line(void);
 char **shell_split_line(char *line);
@@ -20,7 +20,7 @@ int shell_launch(char **args, int flag);
 int shell_execute(char **args);
 void _free_double_pointer(char **d_pointer);
 
-/* Functions for Built-in commands*/
+/* Functions for Built-in commands */
 int shell_cd(char **args);
 int shell_help(char **args);
 int shell_exit(char **args);

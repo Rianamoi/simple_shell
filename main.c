@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * main - function main
+ * main - main function
  * @argc: get a count of arguments
  * @argv: get a array of arguments
  * Return: return EXIT_SUCCESS
