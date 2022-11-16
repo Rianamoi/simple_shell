@@ -1,11 +1,8 @@
 #include "shell.h"
 
-/* Function Declarations for builtin shell commands: */
-
 int shell_cd(char **args);
 int shell_help(char **args);
 int shell_exit(char **args);
-/* List of builtin commands, followed by their corresponding functions. */
 char *built_in_name[] = {"cd", "help", "exit", "env"};
 int (*search_builtin[]) (char **) = {&shell_cd, &shell_help, &shell_exit,
 				     &shell_env};
@@ -17,7 +14,6 @@ int shell_num_builtins(void)
 {
 	return (sizeof(built_in_name) / sizeof(char *));
 }
-/* Builtin function implementations. */
 /**
  * shell_cd - change directory
  * @args: array of strings with the arguments
