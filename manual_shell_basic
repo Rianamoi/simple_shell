@@ -1,4 +1,4 @@
-.TH man(1)  "April 15 2021" "0.01" "simple_shell"
+.TH man(1)  "November 16 2022" "0.01" "simple_shell"
 .SH NAME
 .B simple_shell\fR \- simple UNIX command interpreter
 .SH SYNOPSIS
@@ -156,4 +156,4 @@ access(2), chdir(2), execve(2), _exit(2), exit(3), fflush(3), fork(2), free(3), 
 .B simple_shell\fR emulates basic functionality of the \fBsh\fR shell.
 This man page borrows from the corresponding man pages sh(1) and dash(1).
 .SH AUTHOR
-Fisani Khumalo and 
+Fisani Khumalo and Riana Rabearimanana
