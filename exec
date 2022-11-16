@@ -1,0 +1,18 @@
+#!/bin/bash
+#
+# run /bin/ls many times, with a lot of spaces everywhere
+
+command="/bin/ls
+     /bin/ls
+/bin/ls
+  /bin/ls     "
+command2="/bin/ls
+/bin/ls
+/bin/ls"
+
+echo "$command" | ./hsh
+echo "Real shell\n"
+echo "$command" | /bin/sh
+echo "$command2" | ./hsh
+echo "Real shell\n"
+echo "$command2" | /bin/sh
