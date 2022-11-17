@@ -11,22 +11,16 @@ int lsh_eof(char **args)
 	return (0);
 }
 /**
- * _getline_command -  GEts inputs
- *   * Return: The input.
+ * prompt - prints '$' and waits for a user's input
  */
-char *_getline_command(void)
+void prompt(void)
 {
-	char *lineptr = NULL;
-	size_t charter_user = 0;
+	char *prompt = {"{^_^} "};
+	char *buffer = getcwd(NULL, 0);
 
 	if (isatty(STDIN_FILENO))
-		write(STDOUT_FILENO, "$ ", 2);
-
-	if (getline(&lineptr, &charter_user, stdin) == -1)
 	{
-		free(lineptr);
-		return (NULL);
+		write(STDOUT_FILENO, prompt, _strlen(prompt));
 	}
-
-	return (lineptr);
+	free(buffer);
 }
