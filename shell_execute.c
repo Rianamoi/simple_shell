@@ -10,10 +10,10 @@ int shell_execute(char **args)
 	struct stat st;
 	char *path = NULL, *pathcat1 = NULL, *pathcat2 = NULL;
 	char **environs = NULL;
-	char *builtin_str[] = {"cd", "help", "exit", "env"};
+	char *builtin_str[] = {"cd", "help", "exit", "env", "^D"};
 
 	int (*builtin_func[]) (char **) = {&shell_cd, &shell_help, &shell_exit,
-					   &shell_env};
+					   &shell_env, &lsh_eof};
 	if (args[0] == NULL)
 		return (1);
 	for (i = 0; i < shell_num_builtins(); i++)
